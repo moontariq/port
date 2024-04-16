@@ -1,0 +1,21 @@
+<div>
+                <span>Experences</span>
+                <div>
+                    <p>PhotoShop.........................1 year</p>
+                    <p>Adobe Illustrator..............1 year</p>
+                    <p>Adobe Permier Pro..........1 year</p>
+                    <p>Canva...............................2 year</p>
+                    <p>CapCut.............................2 year</p>
+                    <p>Figma...............................1 year</p>
+                </div>
+            </div>
+            <div>
+                <span>Availiblity</span>
+                <p>Sunday................... 10am To 8pm</p>
+                <p>Monday................... 3pm To 12am</p>
+                <p>Tuesday................... 3pm To 12am</p>
+                <p>Wednesday............... 3pm To 12am</p>
+                <p>Thursday................... 3pm To 12am</p>
+                <p>Friday..................... 3pm To 12am</p>
+                <p>Saturday................... 10am To 8pm</p>
+            </div>

@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Galada&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Galada&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 9px 20px 9px 20px;
+    background-color: black;
+    box-shadow: 0px 6px 20px 0px #535151;
+    position: sticky;
+}
+
+header span {
+    margin-right: 110px;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: "Dancing Script";
+
+}
+
+header a {
+    text-decoration: none;
+    margin-right: 70px;
+    color: white;
+    font-size: 15px;
+    font-family: "Edu NSW ACT Foundation";
+    font-weight: 700;
+}
+
+.innertext {
+    text-align: center;
+    margin-top: 15px;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    font-size: 85px;
+    font-weight: 900;
+    text-shadow: 5px 9px 8px gray;
+    font-family: "Dancing Script";
+}
+
+.subhead {
+    padding: 10px 510px;
+    font-family: "Edu NSW ACT Foundation";
+}
+
+hr {
+    border: 1px solid #535151;
+}
+
+.logo {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Dancing Script";
+
+}
+
+.logo p {
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.logo img {
+    height: 230px;
+    border-radius: 30px;
+    position: relative;
+    width: 48px;
+    transition: width 0.5s ease-in;
+    object-fit: cover;
+}
+
+.card img:hover {
+    width: 230px;
+}
+
+.post p {
+    font-family: "Dancing Script";
+    font-size: 50px;
+    padding: 20px;
+}
+
+.post {
+    text-align: center;
+    height: 90vh;
+}
+
+.post div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    height: 62vh;
+}
+
+.post span {
+    font-family: 'Edu NSW ACT Foundation';
+    font-size: 20px;
+}
+
+.cpost {
+    height: 190px;
+    position: relative;
+    width: 180px;
+    transition: width 0.5s ease-in;
+    object-fit: cover;
+    transform: rotate(45);
+    border-radius: 100px;
+    transition: all 1s ease;
+}
+
+.cpost:hover {
+    height: 500px;
+    width: 500px;
+    border-radius: 40px;
+}
+
+.footer {
+    height: 45vh;
+    font-family: 'Edu NSW ACT Foundation';
+    display: grid;
+    grid-template-columns: 360px 290px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer div {
+    padding: 10px;
+    width: 20vw;
+}
+
+.footer span {
+    color: #535151;
+    font-size: 80px;
+}
+
+.footer p {
+    font-size: 20px;
+    color: #535151;
+    margin: 15px;
+}
+
+.footer h1 {
+    color: #535151;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #535151;
+    padding: 30px;
+}
+
+.intro img {
+    height: 55vh;
+    padding: 0px 30px 30px 30px;
+    border-radius: 75px;
+}
+
+.intro h1 {
+    font-family: 'Edu NSW ACT Foundation';
+}
+
+.intro p {
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation';
+}
+
+.icon {
+    padding: 5px;
+    border-bottom: 1px solid #535151;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    height: 80px;
+    width: auto;
+    margin-right: 20px;
+    height: 80px;
+    width: auto;
+    padding: 5px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #535151;
+    font-size: 20px;
+}
+
+.icon p {
+    color: #535151;
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width: 760px) {
+    header {
+        background-color: black;
+        width: 172vw
+    }
+
+    header span {
+        margin-right: 330px;
+        margin-left: 40px;
+        font-size: 65px;
+    }
+
+    header a {
+        margin: 35px 75px 35px 35px;
+        font-size: 25px;
+    }
+
+    .innertext {
+        text-align: center;
+        margin-top: 15px;
+        height: 155vh;
+        width: 177vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head {
+        font-size: 150px;
+    }
+
+    .logo {
+        width: 177vw;
+    }
+
+    hr {
+        width: 177vw;
+    }
+
+    .logo p {
+        font-size: 60px;
+        padding: 25px;
+    }
+
+    .card img {
+        height: 370px;
+        border-radius: 50px;
+        width: 75px;
+    }
+
+    .card img:hover {
+        width: 375px;
+    }
+
+    .post {
+        height: 110vh;
+        width: 177vw;
+    }
+
+    .post p {
+        font-size: 60px;
+    }
+
+    .post img {
+        height: 270px;
+        width: 260px;
+        border-radius: 195px;
+    }
+
+    .post div {
+        padding: 80px;
+    }
+
+    .post span {
+        font-size: 28px;
+    }
+
+    .footer {
+        height: 80vh;
+        width: 177vw;
+    }
+
+    .footer span {
+        font-size: 130px;
+    }
+
+    .intro img {
+        height: 90vh;
+        padding: 0px 30px 30px 30px;
+        border-radius: 75px;
+    }
+
+    .intro h1 {
+        font-size: 45px;
+    }
+
+    .intro p {
+        font-size: 30px;
+    }
+    .intro {
+        width: 169vw;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .footer div h1{
+        font-size: 30px;
+    }
+    .footer div{
+        width: 40vw;
+    }
+    .icon {
+        padding: 5px;
+        width: 60vw;
+    }
+    .icon img {
+        height: 80px;
+        width: auto;
+        margin-right: 20px;
+        padding: 5px;
+    }
+    
+    .icon a {
+        font-size: 65px;
+    }
+    
+    .icon p {
+        font-size: 25px;
+    }
+    .contact{
+        width: 177vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        background-color: black;
+        width: 173vw
+    }
+
+    header span {
+        margin-right: 160px;
+        margin-left: 40px;
+        font-size: 65px;
+    }
+
+    header a {
+        margin: 35px 50px 35px 35px;
+        font-size: 25px;
+    }
+
+    .innertext {
+        text-align: center;
+        margin-top: 15px;
+        height: 155vh;
+        width: 177vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head {
+        font-size: 150px;
+    }
+
+    .logo {
+        width: 177vw;
+    }
+
+    hr {
+        width: 177vw;
+    }
+
+    .logo p {
+        font-size: 60px;
+        padding: 25px;
+    }
+
+    .card img {
+        height: 370px;
+        border-radius: 50px;
+        width: 75px;
+    }
+
+    .card img:hover {
+        width: 375px;
+    }
+
+    .post {
+        height: 125vh;
+        width: 177vw;
+    }
+
+    .post p {
+        font-size: 60px;
+    }
+
+    .post img {
+        height: 188px;
+        width: 260px;
+        border-radius: 195px;
+    }
+
+    .post div {
+        padding: 80px;
+    }
+
+    .post span {
+        font-size: 25px;
+    }
+
+    .footer {
+        height: 80vh;
+        width: 177vw;
+        display: grid;
+        padding: 10px;
+        display: flex;
+    }
+
+    .footer span {
+        font-size: 110px;
+    }
+
+    .intro img {
+        height: 90vh;
+        padding: 0px 30px 30px 30px;
+        border-radius: 75px;
+    }
+
+    .intro h1 {
+        font-size: 45px;
+    }
+
+    .intro p {
+        font-size: 30px;
+    }
+    .intro {
+        width: 169vw;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .footer div h1{
+        font-size: 35px;
+    }
+    .footer div{
+        width: 65vw;
+    }
+    .footer p{
+        font-size: 25px;
+    }
+    .icon {
+        padding: 5px;
+        width: 80vw;
+    }
+    .icon img {
+        height: 80px;
+        width: auto;
+        margin-right: 20px;
+        padding: 5px;
+    }
+    
+    .icon a {
+        font-size: 65px;
+    }
+    
+    .icon p {
+        font-size: 25px;
+    }
+    .contact{
+        width: 177vw;
+    }
+
+}
+
+@media only screen and (max-width: 280px) {
+    header {
+        background-color: black;
+        width: 172vw
+    }
+
+    header span {
+        margin-right: 330px;
+        margin-left: 40px;
+        font-size: 65px;
+    }
+
+    header a {
+        margin: 35px 75px 35px 35px;
+        font-size: 25px;
+    }
+
+    .innertext {
+        text-align: center;
+        margin-top: 15px;
+        height: 155vh;
+        width: 177vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head {
+        font-size: 150px;
+    }
+
+    .logo {
+        width: 177vw;
+    }
+
+    hr {
+        width: 177vw;
+    }
+
+    .logo p {
+        font-size: 60px;
+        padding: 25px;
+    }
+
+    .card img {
+        height: 370px;
+        border-radius: 50px;
+        width: 75px;
+    }
+
+    .card img:hover {
+        width: 375px;
+    }
+
+    .post {
+        height: 110vh;
+        width: 177vw;
+    }
+
+    .post p {
+        font-size: 60px;
+    }
+
+    .post img {
+        height: 270px;
+        width: 260px;
+        border-radius: 195px;
+    }
+
+    .post div {
+        padding: 80px;
+    }
+
+    .post span {
+        font-size: 28px;
+    }
+
+    .footer {
+        height: 80vh;
+        width: 177vw;
+    }
+
+    .footer span {
+        font-size: 130px;
+    }
+
+    .intro img {
+        height: 90vh;
+        padding: 0px 30px 30px 30px;
+        border-radius: 75px;
+    }
+
+    .intro h1 {
+        font-size: 45px;
+    }
+
+    .intro p {
+        font-size: 30px;
+    }
+    .intro {
+        width: 169vw;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .footer div h1{
+        font-size: 30px;
+    }
+    .footer div{
+        width: 40vw;
+    }
+    .icon {
+        padding: 5px;
+        width: 60vw;
+    }
+    .icon img {
+        height: 80px;
+        width: auto;
+        margin-right: 20px;
+        padding: 5px;
+    }
+    
+    .icon a {
+        font-size: 65px;
+    }
+    
+    .icon p {
+        font-size: 25px;
+    }
+    .contact{
+        width: 177vw;
+    }
+}
