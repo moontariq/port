@@ -513,17 +513,17 @@ hr {
 @media only screen and (max-width: 280px) {
     header {
         background-color: black;
-        width: 172vw
+        width: 247vw
     }
 
     header span {
-        margin-right: 330px;
+        margin-right: 60px;
         margin-left: 40px;
         font-size: 65px;
     }
 
     header a {
-        margin: 35px 75px 35px 35px;
+        margin: 25px 26px 35px 35px;
         font-size: 25px;
     }
 
@@ -531,7 +531,7 @@ hr {
         text-align: center;
         margin-top: 15px;
         height: 155vh;
-        width: 177vw;
+        width: 262vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -542,11 +542,11 @@ hr {
     }
 
     .logo {
-        width: 177vw;
+        width: 260vw;
     }
 
     hr {
-        width: 177vw;
+        width: 261vw;
     }
 
     .logo p {
@@ -557,7 +557,7 @@ hr {
     .card img {
         height: 370px;
         border-radius: 50px;
-        width: 75px;
+        width: 60px;
     }
 
     .card img:hover {
@@ -566,7 +566,7 @@ hr {
 
     .post {
         height: 110vh;
-        width: 177vw;
+        width: 262vw;
     }
 
     .post p {
@@ -574,22 +574,22 @@ hr {
     }
 
     .post img {
-        height: 270px;
-        width: 260px;
+        height: 170px;
+        width: 160px;
         border-radius: 195px;
     }
 
     .post div {
-        padding: 80px;
+        padding: 65px;
     }
 
     .post span {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .footer {
         height: 80vh;
-        width: 177vw;
+        width: 255vw;
     }
 
     .footer span {
@@ -610,7 +610,7 @@ hr {
         font-size: 30px;
     }
     .intro {
-        width: 169vw;
+        width: 240vw;
         padding-top: 40px;
         padding-bottom: 40px;
         text-align: center;
@@ -619,11 +619,11 @@ hr {
         font-size: 30px;
     }
     .footer div{
-        width: 40vw;
+        width: 120vw;
     }
     .icon {
         padding: 5px;
-        width: 60vw;
+        width: 140vw;
     }
     .icon img {
         height: 80px;
@@ -640,6 +640,7 @@ hr {
         font-size: 25px;
     }
     .contact{
-        width: 177vw;
+        width: 262vw;
     }
+    
 }
