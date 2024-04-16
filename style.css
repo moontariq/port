@@ -644,3 +644,138 @@ hr {
     }
     
 }
+
+@media only screen and (max-width: 400px) {
+    header {
+        background-color: black;
+        width: 252vw
+    }
+
+    header span {
+        margin-right: 240px;
+        margin-left: 40px;
+        font-size: 65px;
+    }
+
+    header a {
+        margin: 25px 26px 35px 35px;
+        font-size: 25px;
+    }
+
+    .innertext {
+        text-align: center;
+        margin-top: 15px;
+        height: 155vh;
+        width: 262vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head {
+        font-size: 150px;
+    }
+
+    .logo {
+        width: 260vw;
+    }
+
+    hr {
+        width: 261vw;
+    }
+
+    .logo p {
+        font-size: 60px;
+        padding: 25px;
+    }
+
+    .card img {
+        height: 370px;
+        border-radius: 50px;
+        width: 60px;
+    }
+
+    .card img:hover {
+        width: 375px;
+    }
+
+    .post {
+        height: 120vh;
+        width: 262vw;
+    }
+
+    .post p {
+        font-size: 60px;
+    }
+
+    .post img {
+        height: 170px;
+        width: 160px;
+        border-radius: 195px;
+    }
+
+    .post div {
+        padding: 65px;
+    }
+
+    .post span {
+        font-size: 24px;
+    }
+
+    .footer {
+        height: 80vh;
+        width: 255vw;
+    }
+
+    .footer span {
+        font-size: 130px;
+    }
+
+    .intro img {
+        height: 90vh;
+        padding: 0px 30px 30px 30px;
+        border-radius: 75px;
+    }
+
+    .intro h1 {
+        font-size: 45px;
+    }
+
+    .intro p {
+        font-size: 30px;
+    }
+    .intro {
+        width: 247vw;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .footer div h1{
+        font-size: 30px;
+    }
+    .footer div{
+        width: 120vw;
+    }
+    .icon {
+        padding: 5px;
+        width: 140vw;
+    }
+    .icon img {
+        height: 80px;
+        width: auto;
+        margin-right: 20px;
+        padding: 5px;
+    }
+    
+    .icon a {
+        font-size: 65px;
+    }
+    
+    .icon p {
+        font-size: 25px;
+    }
+    .contact{
+        width: 262vw;
+    }
+    
+}
